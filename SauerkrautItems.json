@@ -1,0 +1,37 @@
+[
+  {
+    "item_id": 10301,
+    "item_name": "Cabbage Beetroot",
+    "probioticsCategory_id": 1030,
+    "probioticsCategory_name": "Sauerkraut",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  }
+]

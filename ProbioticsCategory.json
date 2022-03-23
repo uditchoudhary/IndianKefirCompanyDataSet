@@ -1,0 +1,53 @@
+[
+  {
+    "probioticsCategory_id": 1010,
+    "probioticsCategory_name": "Kambucha",
+    "productCategory_id": 10,
+    "productCategory_name": "Probiotics",
+    "probioticsCategory_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "probioticsCategory_images": [
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "probioticsCategory_id": 1020,
+    "probioticsCategory_name": "Kefir",
+    "productCategory_id": 10,
+    "productCategory_name": "Probiotics",
+    "probioticsCategory_description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "probioticsCategory_images": [
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "probioticsCategory_id": 1030,
+    "probioticsCategory_name": "Sauerkraut",
+    "productCategory_id": 10,
+    "productCategory_name": "Probiotics",
+    "probioticsCategory_description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "probioticsCategory_images": [
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "item_id": 10101,
+    "item_name": "Apple Cinnamon",
+    "probioticsCategory_id": 1010,
+    "probioticsCategory_name": "Kambucha",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "item_id": 10102,
+    "item_name": "Tulsi Ginger",
+    "probioticsCategory_id": 1010,
+    "probioticsCategory_name": "Kambucha",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "item_id": 10103,
+    "item_name": "Black Current",
+    "probioticsCategory_id": 1010,
+    "probioticsCategory_name": "Kambucha",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "item_id": 10104,
+    "item_name": "Orange",
+    "probioticsCategory_id": 1010,
+    "probioticsCategory_name": "Kambucha",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  }
+]

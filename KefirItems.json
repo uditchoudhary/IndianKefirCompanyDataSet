@@ -1,0 +1,142 @@
+[
+  {
+    "item_id": 10201,
+    "item_name": "Mango",
+    "probioticsCategory_id": 1020,
+    "probioticsCategory_name": "Kefir",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "item_id": 10202,
+    "item_name": "Cranberry",
+    "probioticsCategory_id": 1020,
+    "probioticsCategory_name": "Kefir",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "item_id": 10203,
+    "item_name": "Fennel",
+    "probioticsCategory_id": 1020,
+    "probioticsCategory_name": "Kefir",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "item_id": 10204,
+    "item_name": "Mojito",
+    "probioticsCategory_id": 1020,
+    "probioticsCategory_name": "Kefir",
+    "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "item_size_price_ml": [
+      {
+        "size": 300,
+        "price": 200
+      },
+      {
+        "size": 500,
+        "price": 300
+      },
+      {
+        "size": 1000,
+        "price": 400
+      }
+    ],
+    "item_images": [
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "url",
+        "image_alt": "alt"
+      }
+    ]
+  }
+]
