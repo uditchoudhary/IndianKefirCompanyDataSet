@@ -21,16 +21,12 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/GHZftqV/Apple-Cinnamon-kombucha-290-ml-bottle-png.png",
+        "image_alt": "Apple Cinnamon"
       },
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/09bjqk8/20210727-123559.jpg",
+        "image_alt": "Apple Cinnamon"
       }
     ]
   },
@@ -56,16 +52,12 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/whPTSsQ/tulsi-ginger.png",
+        "image_alt": "Tulsi Ginger"
       },
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/FW3Cfdg/20210727-123518.jpg",
+        "image_alt": "Tulsi Ginger"
       }
     ]
   },
@@ -91,16 +83,12 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/rFfv5t5/black-currant-kombucha-290-ml-bottle-png.png",
+        "image_alt": "Black Current"
       },
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/09dmmRr/20210727-123438.jpg",
+        "image_alt": "Black Current"
       }
     ]
   },
@@ -126,15 +114,11 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/z8pdXJZ/orange-kombucha.png",
+        "image_alt": "Orange"
       },
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
+        "image_url": "https://i.ibb.co/v47pGjZ/20210727-123057.jpg",
         "image_alt": "alt"
       }
     ]

@@ -21,16 +21,8 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/qYb2Wcf/SAUERKRAUT-BEETROOT-bottle-1.png",
+        "image_alt": "Sauerkraut Beetroot"
       }
     ]
   }

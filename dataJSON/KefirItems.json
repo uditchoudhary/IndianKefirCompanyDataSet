@@ -21,16 +21,8 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/sW7RBFY/mango.png",
+        "image_alt": "Mango"
       }
     ]
   },
@@ -56,16 +48,8 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/TLwPpLR/cranberry.png",
+        "image_alt": "Cranberry"
       }
     ]
   },
@@ -91,16 +75,8 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/jhBbr2x/fennel.png",
+        "image_alt": "Fennel"
       }
     ]
   },
@@ -126,16 +102,8 @@
     ],
     "item_images": [
       {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
-      },
-      {
-        "image_url": "url",
-        "image_alt": "alt"
+        "image_url": "https://i.ibb.co/cxqTbnJ/mojito.png",
+        "image_alt": "Mojito"
       }
     ]
   }
