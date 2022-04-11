@@ -1,9 +1,66 @@
 Home / Landing Page
-Category Section
-Products Page
-Product filter section category wise / deals / price wise
-Product Details Page
-Checkout Page
-Summary Page
+
+-- Get the Product category ( Probiotics and organics )
+-- -- Get details of each product category
+-- Get all the deals 
+
+
+Probiotics Page
+-- Get the Probiotics category detials ( may be pass through the component )
+-- -- Get all the probitocs items
+
+Organic Page
+-- Get the Organic category details ( may be pass through the component )
+-- -- get All the Organic items
+
+Product details page
+-- pass on the data from product pages to the product details page
+-- get all the deals for that product
+
+Checkout Page / Summary Page
+-- Get the cart details - use user _id for that
+
 Login / Register modal
+-- Register auth API (( admin login will manually be created ))
+-- Login auth API  
+
 Logout button
+-- Post call to delete the session 
+
+Extra Calls:
+
+-- Post calls to add a product. Option will be provided for admin user only
+-- Fetch Rules of discount from backend 
+
+
+
+Calculation Logic: 
+-- Login will be written at backend api to calculate and provide the total price at cart page
+-- while selecting number of items from dropdown, logic can be written on frontend 
+
+
+-------------------
+Kambucha / Kefir
+-------------------
+
+only one size : 330 ml : rs 250
+buy any 2 - 12 % off
+buy any 4 - 20 % off 
+buy any 8 - 25 % off
+buy any 12 - 35 % off 
+buy any 20 - 40 % off 
+
+Kambucha / Kefir Trial pack : 4 for rs 800, 1PC EACH FLAVOUR
+Create your own box : 12 for rs 1950, minimum 2 pc each 
+Box of 24 : 24 for rs 3600, minimum 2 pc each 
+
+
+-------------------
+Sauerkraut
+-------------------
+
+Cabbage + Beetroot
+Only one size : 225 grams
+
+buy one: rs 250
+buy two: rs 400 - 20% off 

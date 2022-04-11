@@ -1,0 +1,36 @@
+[
+  {
+    "organicsCategory_id": 2010,
+    "organicsCategory_name": "Gluten Free Millets",
+    "productCategory_id": 20,
+    "productCategory_name": "Organics",
+    "organicsCategory_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "organicsCategory_images": [
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      }
+    ]
+  },
+  {
+    "organicsCategory_id": 2020,
+    "organicsCategory_name": "Cold Pressed Oil",
+    "productCategory_id": 20,
+    "productCategory_name": "Organics",
+    "organicsCategory_description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "organicsCategory_images": [
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      },
+      {
+        "image_url": "<url>",
+        "image_alt": "alt"
+      }
+    ]
+  },
+]

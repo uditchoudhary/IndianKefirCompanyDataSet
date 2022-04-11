@@ -7,16 +7,8 @@
     "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
     "item_size_price_ml": [
       {
-        "size": 300,
-        "price": 200
-      },
-      {
-        "size": 500,
-        "price": 300
-      },
-      {
-        "size": 1000,
-        "price": 400
+        "size": 330,
+        "price": 250
       }
     ],
     "item_images": [
@@ -38,16 +30,8 @@
     "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
     "item_size_price_ml": [
       {
-        "size": 300,
-        "price": 200
-      },
-      {
-        "size": 500,
-        "price": 300
-      },
-      {
-        "size": 1000,
-        "price": 400
+        "size": 330,
+        "price": 250
       }
     ],
     "item_images": [
@@ -69,16 +53,8 @@
     "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
     "item_size_price_ml": [
       {
-        "size": 300,
-        "price": 200
-      },
-      {
-        "size": 500,
-        "price": 300
-      },
-      {
-        "size": 1000,
-        "price": 400
+        "size": 330,
+        "price": 250
       }
     ],
     "item_images": [
@@ -100,16 +76,8 @@
     "item_description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
     "item_size_price_ml": [
       {
-        "size": 300,
-        "price": 200
-      },
-      {
-        "size": 500,
-        "price": 300
-      },
-      {
-        "size": 1000,
-        "price": 400
+        "size": 330,
+        "price": 250
       }
     ],
     "item_images": [
