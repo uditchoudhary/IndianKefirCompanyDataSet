@@ -18,6 +18,7 @@ Product details page
 -- get all the deals for that product
 
 Checkout Page / Summary Page
+-- Add items to cart - using user _id 
 -- Get the cart details - use user _id for that
 
 Login / Register modal
