@@ -36,19 +36,17 @@
 >> http://localhost:9700/organics
 >> https://yuvva-backend.herokuapp.com/organics
 
-Checkout Page / Summary Page
--- Add items to cart - using user _id 
--- Get the cart details - use user _id for that
 
 ## Login / Register modal
--- Register auth API
+
+### Register auth API
 #### Request Body:
 {
 	"name": "udit choudhary",
 	"email": "test@test.com",
 	"password": "password"
 }
-### Registration URI
+#### Registration URI
 >> localhost:5001/api/auth/register
 #### Success response
 {
@@ -57,18 +55,46 @@ Checkout Page / Summary Page
 }
 #### User already exist response
 {
-    "message": "User already exist",
-    "location": "/login"
+    "statusText": "USER_EXIST",
+    "redirect": "/login"
 }
 #### Failure
 Request to register failed due to server issue
+{
+  statusText: "SERVER_ERROR",
+  redirect: "/",
+}
 
 
+### Login auth API  
 
--- Login auth API  
+### Login Body
+{
+	"email": "udit@test.com",
+	"password": "password"
+}
+#### Login URI
+>> http://localhost:5001/api/auth/login
 
-Logout button
--- Post call to delete the session 
+#### Authentication Failure response 
+{
+    "statusText": "USER_DOES_NOT_EXIST",
+    "redirect": "/register"
+}
+
+#### Authentication Success response
+{
+    "auth": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNWIwMDM2NTE5NzQ1Y2M0ODQ4Y2MyOSIsImlhdCI6MTY1MDEzMTM2MSwiZXhwIjoxNjUxOTMxMzYxfQ.PT_o1B2mjxIMCFIljNbD4nzYyWJJb_sSF03WB3pdnio"
+}
+
+
+### Logout button
+-- Delete token from client side on Logout ( no need for a call )
+
+Checkout Page / Summary Page
+-- Add items to cart - using user _id 
+-- Get the cart details - use user _id for that
 
 Extra Calls:
 
@@ -85,7 +111,7 @@ Calculation Logic:
 
 Addiotional Fetures can be added :
 -- Get all the deals 
--- get all the deals for a product
+-- get all the deals related to a product
 
 
 
