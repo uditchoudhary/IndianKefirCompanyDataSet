@@ -1,28 +1,70 @@
-Home / Landing Page
+## Home / Landing Page
 
+### Product category 
 -- Get the Product category ( Probiotics and organics )
--- -- Get details of each product category
--- Get all the deals 
+>> http://localhost:9700/categories
+>> https://yuvva-backend.herokuapp.com/categories
 
 
-Probiotics Page
--- Get the Probiotics category detials ( may be pass through the component )
--- -- Get all the probitocs items
+## Fetch Item with item id and fetch all
+### individual item for Product details page
+>> http://localhost:9700/items/?item=10101
+>> https://yuvva-backend.herokuapp.com/items/?item=10101
 
-Organic Page
+### all items
+>> http://localhost:9700/items/
+>> https://yuvva-backend.herokuapp.com/items/
+
+## Probiotics Page
+-- Get all the probitocs items
+>> http://localhost:9700/probiotics/all
+>> https://yuvva-backend.herokuapp.com/probiotics/all
+
+### probiotic details
+>> http://localhost:9700/probiotics
+>> https://yuvva-backend.herokuapp.com/probiotics
+
+
+## Organic Page
 -- Get the Organic category details ( may be pass through the component )
 -- -- get All the Organic items
+>> http://localhost:9700/organics/all
+>> https://yuvva-backend.herokuapp.com/organics/all
 
-Product details page
--- pass on the data from product pages to the product details page
--- get all the deals for that product
+### Organics details
+-- Get details of each product category
+>> http://localhost:9700/organics
+>> https://yuvva-backend.herokuapp.com/organics
 
 Checkout Page / Summary Page
 -- Add items to cart - using user _id 
 -- Get the cart details - use user _id for that
 
-Login / Register modal
--- Register auth API (( admin login will manually be created ))
+## Login / Register modal
+-- Register auth API
+#### Request Body:
+{
+	"name": "udit choudhary",
+	"email": "test@test.com",
+	"password": "password"
+}
+### Registration URI
+>> localhost:5001/api/auth/register
+#### Success response
+{
+    "message": "Regisration Successfull",
+    "redirect": "/login"
+}
+#### User already exist response
+{
+    "message": "User already exist",
+    "location": "/login"
+}
+#### Failure
+Request to register failed due to server issue
+
+
+
 -- Login auth API  
 
 Logout button
@@ -32,12 +74,20 @@ Extra Calls:
 
 -- Post calls to add a product. Option will be provided for admin user only
 -- Fetch Rules of discount from backend 
-
+-- Product Review ( get and post )
 
 
 Calculation Logic: 
 -- Login will be written at backend api to calculate and provide the total price at cart page
 -- while selecting number of items from dropdown, logic can be written on frontend 
+
+
+
+Addiotional Fetures can be added :
+-- Get all the deals 
+-- get all the deals for a product
+
+
 
 
 -------------------
