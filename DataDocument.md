@@ -45,6 +45,7 @@
 	"name": "udit choudhary",
 	"email": "test@test.com",
 	"password": "password"
+    "isAdmin": true   //Optional
 }
 #### Registration URI
 >> http://localhost:5001/api/auth/register
@@ -91,6 +92,24 @@ Request to register failed due to server issue
 
 ### Logout button
 -- Delete token from client side on Logout ( no need for a call )
+
+### Admin Actions
+--- Get all the users
+>> http://localhost:5001/api/auth/users
+>>
+set bearer token received while log in 
+For all other users, its access denied
+
+### Fetch User Profile - use bearer token
+>> http://localhost:5001/api/auth/profile
+>>
+
+Response: 
+{
+    "name": "udit admin",
+    "email": "udit-admin@test.com",
+    "isAdmin": true
+}
 
 Checkout Page / Summary Page
 -- Add items to cart - using user _id 
