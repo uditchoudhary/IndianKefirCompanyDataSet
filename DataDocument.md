@@ -49,7 +49,7 @@ Checkout Page / Summary Page
 	"password": "password"
 }
 ### Registration URI
->> localhost:5001/api/auth/register
+>> http://localhost:5001/api/auth/register
 #### Success response
 {
     "message": "Regisration Successfull",
