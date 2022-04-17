@@ -1,37 +1,37 @@
 ## Home / Landing Page
 
-### Product category 
+### (GET) Product category 
 -- Get the Product category ( Probiotics and organics )
 >> http://localhost:9700/categories
 >> https://yuvva-backend.herokuapp.com/categories
 
 
 ## Fetch Item with item id and fetch all
-### individual item for Product details page
+### (GET) individual item for Product details page
 >> http://localhost:9700/items/?item=10101
 >> https://yuvva-backend.herokuapp.com/items/?item=10101
 
-### all items
+### (GET) all items
 >> http://localhost:9700/items/
 >> https://yuvva-backend.herokuapp.com/items/
 
-## Probiotics Page
+## (GET) Probiotics Page
 -- Get all the probitocs items
 >> http://localhost:9700/probiotics/all
 >> https://yuvva-backend.herokuapp.com/probiotics/all
 
-### probiotic details
+### (GET) probiotic details
 >> http://localhost:9700/probiotics
 >> https://yuvva-backend.herokuapp.com/probiotics
 
 
-## Organic Page
+## (GET) Organic Page
 -- Get the Organic category details ( may be pass through the component )
 -- -- get All the Organic items
 >> http://localhost:9700/organics/all
 >> https://yuvva-backend.herokuapp.com/organics/all
 
-### Organics details
+### (GET) Organics details
 -- Get details of each product category
 >> http://localhost:9700/organics
 >> https://yuvva-backend.herokuapp.com/organics
@@ -47,7 +47,7 @@
 	"password": "password"
     "isAdmin": true   //Optional
 }
-#### Registration URI
+#### (POST) Registration URI
 >> http://localhost:5001/api/auth/register
 #### Success response
 {
@@ -74,7 +74,7 @@ Request to register failed due to server issue
 	"email": "udit@test.com",
 	"password": "password"
 }
-#### Login URI
+#### (POST) Login URI
 >> http://localhost:5001/api/auth/login
 
 #### Authentication Failure response 
@@ -93,14 +93,14 @@ Request to register failed due to server issue
 ### Logout button
 -- Delete token from client side on Logout ( no need for a call )
 
-### Admin Actions
+### (GET) Admin Actions
 --- Get all the users
 >> http://localhost:5001/api/auth/users
 >>
 set bearer token received while log in 
 For all other users, its access denied
 
-### Fetch User Profile - use bearer token
+### (GET) Fetch User Profile - use bearer token
 >> http://localhost:5001/api/auth/profile
 >>
 
@@ -111,9 +111,45 @@ Response:
     "isAdmin": true
 }
 
-Checkout Page / Summary Page
--- Add items to cart - using user _id 
--- Get the cart details - use user _id for that
+### Cart Management - use bearer token from login
+#### (POST) Add to cart
+##### Logic: 
+- When user has a cart already
+-- Check if item is already in the cart
+--- Yes -> Update the quantity and total cost
+--- No -> Add item to the cart item list
+- When user doesnt have a cart
+-- Create a new cart and add item to it
+
+
+>> http://localhost:5001/api/auth/cartadditem
+Request body: 
+{
+    "quantity": 2,
+    "_id": "62594a74484a4e95fb0f95f6",
+    "item_name": "Apple Cinnamon",
+    "size": 330,
+    "price": 250,
+    "item_id": 10101
+}
+
+#### (POST) Remove from cart
+##### Logic
+- remove the item from the cart 
+- update the price ( TBD )
+
+>> http://localhost:5001/api/auth/cartremoveitem
+Request body: item object id 
+{
+    "_id":"62594a74484a4e95fb0f95f6"
+}
+
+#### (GET) User view cart 
+>> http://localhost:5001/api/auth/cart
+
+### Order Management 
+--- Admin get all orders 
+--- Admin delete order
 
 Extra Calls:
 
