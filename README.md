@@ -1,6 +1,10 @@
 # Yuvva Indian Kefir Company - RestAPIs 
 -------------------
 
+Authenticated APIs Repository: https://github.com/uditchoudhary/yuvva-auth
+Unauthenticated APIs Repository: https://github.com/uditchoudhary/yuvva-backend
+-------------------
+
 ## Home / Landing Page / Product Pages
 -------------------
 
