@@ -187,7 +187,7 @@ POST: http://yuvva-auth.herokuapp.com/api/auth/cartadditem
 POST: http://yuvva-auth.herokuapp.com/api/auth/cartremoveitem
 ```
 
-#### Request body: item object id 
+#### Request body: item list object id 
 ```
 {
     "_id":"62594a74484a4e95fb0f95f6"
