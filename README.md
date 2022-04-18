@@ -121,40 +121,48 @@ POST: http://yuvva-auth.herokuapp.com/api/auth/login
 }
 ```
 -------------------
-### Admin Actions
+### Admin / User Actions
 -------------------
+* Set bearer token received while log in for all the auth request
+* else users will getaccess denied 
 
-#### Get all the users
+#### Admin: Get all the users
 ```
 GET: http://yuvva-auth.herokuapp.com/api/auth/users
 ```
-~ set bearer token received while log in ~
-~ Normal users will getaccess denied ~
+-------------------
+#### Fetch User Profile - use bearer token
+```
+GET: http://localhost:5001/api/auth/profile
+```
 
-### (GET) Fetch User Profile - use bearer token
->> http://localhost:5001/api/auth/profile
->>
-
-Response: 
+#### Response: 
+```
 {
     "name": "udit admin",
     "email": "udit-admin@test.com",
     "isAdmin": true
 }
-
+```
+-------------------
 ### Cart Management - use bearer token from login
-#### (POST) Add to cart
+-------------------
+#### Add to cart
+
 ##### Logic: 
-- When user has a cart already
--- Check if item is already in the cart
---- Yes -> Update the quantity and total cost
---- No -> Add item to the cart item list
-- When user doesnt have a cart
--- Create a new cart and add item to it
+1. When user has a cart already. 
+- Check if item is already in the cart. <br/>
+Yes -> Update the quantity and total cost. <br/> 
+No -> Add item to the cart item list. <br/>
+2. When user doesnt have a cart. 
+- Create a new cart and add item to it. 
 
-
->> http://localhost:5001/api/auth/cartadditem
-Request body: 
+#### Add item to cart API
+```
+POST: http://localhost:5001/api/auth/cartadditem
+```
+#### Request body: 
+```
 {
     "quantity": 2,
     "_id": "62594a74484a4e95fb0f95f6",
@@ -163,6 +171,7 @@ Request body:
     "price": 250,
     "item_id": 10101
 }
+```
 
 #### (POST) Remove from cart
 ##### Logic
