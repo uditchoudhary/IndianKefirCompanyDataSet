@@ -1,9 +1,15 @@
-## Home / Landing Page
+# Yuvva Indian Kefir Company - RestAPIs 
+-------------------
+
+## Home / Landing Page / Product Pages
 
 ### (GET) Product category 
--- Get the Product category ( Probiotics and organics )
->> http://localhost:9700/categories
->> https://yuvva-backend.herokuapp.com/categories
+Get the Product category ( Probiotics and organics )
+
+#### API Call - GET
+```bash
+https://yuvva-backend.herokuapp.com/categories
+```
 
 
 ## Fetch Item with item id and fetch all
