@@ -133,7 +133,7 @@ GET: http://yuvva-auth.herokuapp.com/api/auth/users
 -------------------
 #### Fetch User Profile - use bearer token
 ```
-GET: http://localhost:5001/api/auth/profile
+GET: http://yuvva-auth.herokuapp.com/api/auth/profile
 ```
 
 #### Response: 
@@ -159,7 +159,7 @@ No -> Add item to the cart item list. <br/>
 
 #### Add item to cart API
 ```
-POST: http://localhost:5001/api/auth/cartadditem
+POST: http://yuvva-auth.herokuapp.com/api/auth/cartadditem
 ```
 #### Request body: 
 ```
@@ -180,7 +180,7 @@ POST: http://localhost:5001/api/auth/cartadditem
 
 #### Remove item from cart API
 ```
-POST: http://localhost:5001/api/auth/cartremoveitem
+POST: http://yuvva-auth.herokuapp.com/api/auth/cartremoveitem
 ```
 
 #### Request body: item object id 
@@ -192,7 +192,7 @@ POST: http://localhost:5001/api/auth/cartremoveitem
 -------------------
 #### User view cart 
 ```
-GET: http://localhost:5001/api/auth/cart
+GET: http://yuvva-auth.herokuapp.com/api/auth/cart
 ```
 -------------------
 -------------------
