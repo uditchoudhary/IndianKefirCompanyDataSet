@@ -172,26 +172,39 @@ POST: http://localhost:5001/api/auth/cartadditem
     "item_id": 10101
 }
 ```
+-------------------
+#### Remove item from cart
+##### Logic:
+1. remove the item from the cart 
+2. update the price ( TBD )
 
-#### (POST) Remove from cart
-##### Logic
-- remove the item from the cart 
-- update the price ( TBD )
+#### Remove item from cart API
+```
+POST: http://localhost:5001/api/auth/cartremoveitem
+```
 
->> http://localhost:5001/api/auth/cartremoveitem
-Request body: item object id 
+#### Request body: item object id 
+```
 {
     "_id":"62594a74484a4e95fb0f95f6"
 }
+```
+-------------------
+#### User view cart 
+```
+GET: http://localhost:5001/api/auth/cart
+```
+-------------------
+-------------------
 
-#### (GET) User view cart 
->> http://localhost:5001/api/auth/cart
+# Future work
 
-### Order Management 
+-------------------
+-------------------
+
+
 --- Admin get all orders 
 --- Admin delete order
-
-### Future work
 
 -- Post calls to add a product. Option will be provided for admin user only
 -- Fetch Rules of discount from backend 
@@ -203,14 +216,9 @@ Calculation Logic:
 -- Login will be written at backend api to calculate and provide the total price at cart page
 -- while selecting number of items from dropdown, logic can be written on frontend 
 
-
-
 Addiotional Fetures can be added :
 -- Get all the deals 
 -- get all the deals related to a product
-
-
-
 
 -------------------
 Kambucha / Kefir
