@@ -151,12 +151,13 @@ Request body: item object id
 --- Admin get all orders 
 --- Admin delete order
 
-Extra Calls:
+### Future work
 
 -- Post calls to add a product. Option will be provided for admin user only
 -- Fetch Rules of discount from backend 
 -- Product Review ( get and post )
-
+-- add to cart without login 
+-- checkout with login or as a guest user
 
 Calculation Logic: 
 -- Login will be written at backend api to calculate and provide the total price at cart page
